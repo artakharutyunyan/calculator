@@ -1,0 +1,96 @@
+body {
+  background: gray;
+}
+
+.calc {
+  font-family: sans-serif;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 500px;
+  padding-right: 500px;
+  text-align: center;
+  border: black;
+}
+.grid {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "screen screen screen screen"
+    "seven eigth nine divide"
+    "four five six multiple"
+    "one two three minus"
+    "zero dot ac plus"
+    "equal equal equal equal";
+  grid-gap: 2px;
+}
+.screen {
+  grid-area: screen;
+  background: white;
+  height: 70px;
+  font-size: 35px;
+}
+.stl {
+  background: black;
+  height: 55px;
+  font-size: 35px;
+  color: white;
+}
+.org {
+  background: orangered;
+}
+.seven {
+  grid-area: seven;
+}
+.eigth {
+  grid-area: eigth;
+}
+.nine {
+  grid-area: nine;
+}
+.divide {
+  grid-area: divide;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+.multiple {
+  grid-area: multiple;
+}
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.minus {
+  grid-area: minus;
+}
+.zero {
+  grid-area: zero;
+}
+.dot {
+  grid-area: dot;
+}
+.ac {
+  grid-area: ac;
+}
+.equal {
+  grid-area: equal;
+}
+.plus {
+  grid-area: plus;
+}
+
+.highlight {
+  background-color: grey;
+}
