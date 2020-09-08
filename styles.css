@@ -9,7 +9,7 @@ body {
   padding-left: 500px;
   padding-right: 500px;
   text-align: center;
-  border: black;
+  border:black;
 }
 .grid {
   display: grid;
@@ -29,6 +29,8 @@ body {
   background: white;
   height: 70px;
   font-size: 35px;
+  text-align: right;
+  padding: 0px 5px;
 }
 .stl {
   background: black;
